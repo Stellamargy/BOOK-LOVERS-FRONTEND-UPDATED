@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# The Book Lovers
+A Ruby and React project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Developer behind the project
++ Stella Margy Oloo
+### Github Link
+Here is the github link (https://github.com/Stellamargy/BOOK-LOVERS-FRONTEND-UPDATED) to the project. 
 
-## Available Scripts
+## Setup
+You can clone this project to access it on your local files by following these steps:
+```
+Open the Terminal
+Clone the git@github.com:Stellamargy/BOOK-LOVERS-FRONTEND-UPDATED.git
+Change Directory: cd the-book-club
 
-In the project directory, you can run:
+npm install
+```
+If you encounter an error when running npm start, try this instead:
+```
+nvm install --lts
+open browser by running npm start
+```
 
-### `npm start`
+## The idea behind the project
+The Book Lovers is a personalized online book library where users can access as well as keep a track of the books they are currently reading. 
+Readers can scroll through a variety of books in the library, and add them to their current read if the book intrests them. Users can also delete books they no longer need from the library or their current read list. In the event a reader can't find a book they are looking for in the library, they can add the book by filling the wishlist form and the book will be added to their library.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Site Preview
+### Landing Page
+![Screenshot from 2022-11-14 21-53-24](https://user-images.githubusercontent.com/106233737/201742737-1eca2cd0-5a16-45fe-954e-f83223a0f994.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Currently Reading
+![Screenshot from 2022-11-14 21-53-47](https://user-images.githubusercontent.com/106233737/201742874-b19e8a38-cb5e-4751-8d08-26631df11a5d.png)
 
-### `npm test`
+### Wishlist form
+![Screenshot from 2022-11-14 21-53-54](https://user-images.githubusercontent.com/106233737/201742939-78a3ffaf-edaf-42a4-b617-581e447bdb9c.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies used
++ JSX
++ CSS
++ Styled Components
++ Bootstrap
++ React
++ Ruby
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Backend Repo
+Here is the [codebase](https://github.com/Stellamargy/BOOK-LOVERS-BACKEND) for the backend writen in Ruby.

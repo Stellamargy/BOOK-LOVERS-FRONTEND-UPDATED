@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1.6rem;
+} */
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover{
+  color: #fff;
+}
+
+.nav {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 20vh;
+  background: url(https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1198&q=80)
+    no-repeat;
+  background-size: cover;
+  /* filter: blur(3px); */
+  /* -webkit-filter: blur(3px); */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2.0rem;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3.5rem;
+}
+
+.hamburger div {
+  width: 3rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: whitesmoke;
+  transition: 0.3s ease-in;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+/* responsiveness  */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .nav_menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 90vh;
+    background: #1a4e60;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.4s ease-in;
+  }
+}
+
+.nav_active {
+  transform: translateX(0);
+}
+
+/* toggler icon animation  */
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}

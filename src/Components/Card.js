@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ cards, setCards, book, handleAddBooks }) => {
   function handleDelete() {
-    fetch(`https://phase-3-backend-project-production.up.railway.app/books/${book.id}`, {
+    fetch(`http://127.0.0.1:9292/books/${book.id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

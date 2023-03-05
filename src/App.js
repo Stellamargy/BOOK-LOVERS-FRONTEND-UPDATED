@@ -42,7 +42,7 @@ function App() {
         <Route path="/reading" element={<Reading 
           reading={reading}
           setReading={setReading}/>}></Route>
-        <Route path="/wishlist" element={<WishList />}></Route>
+        <Route path="/wishlist" element={<WishList cards={cards} setCards={setCards}/>}></Route>
       </Routes>
       <Footer />
     </>
